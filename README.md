@@ -8,7 +8,7 @@ Proyecto integrador para la validación de arquitecturas de red multicapa, desar
 
 ---
 
-## 🏗️ Estructura del Proyecto
+## Estructura del Proyecto
 
 El repositorio está organizado en base a los incisos de la consigna de la cátedra:
 
@@ -28,7 +28,7 @@ El repositorio está organizado en base a los incisos de la consigna de la cáte
     ├── 📄 requirements.txt
     └── 📄 Tarea_3_Trabajo_integrador_V25.pdf
 
-### 📋 Descripción de Archivos
+### Descripción de Archivos
 
 * **`punto_1/punto1/punto1.ino`**: Código C++ (Firmware) para el microcontrolador (Esclavo Modbus RTU). Administra la capa física (RS485), lee los sensores analógicos/digitales, controla el actuador (LED PWM) y procesa las peticiones Modbus.
 * **`punto_2/maestro_modbus.py`**: Implementación base del Maestro Modbus para interrogación de registros.
@@ -39,7 +39,7 @@ El repositorio está organizado en base a los incisos de la consigna de la cáte
 
 ---
 
-## ⚙️ Requisitos de Instalación
+## Requisitos de Instalación
 
 1. Clonar el repositorio en tu máquina local.
 2. Crear un entorno virtual (recomendado): 
@@ -47,7 +47,7 @@ El repositorio está organizado en base a los incisos de la consigna de la cáte
 3. Activar el entorno virtual y cargar las dependencias exactas:
    pip install -r requirements.txt
 
-## 🚀 Ejecución del Sistema
+## Ejecución del Sistema
 
 Para levantar la arquitectura completa, se requieren tres instancias de terminal corriendo en paralelo en la raíz del proyecto:
 
