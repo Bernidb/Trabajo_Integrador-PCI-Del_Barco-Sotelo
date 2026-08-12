@@ -58,4 +58,4 @@ Para levantar la arquitectura completa, se requieren tres instancias de terminal
    python punto_4/dispositivo3_mqtt.py
 
 3. Levantar la interfaz SCADA:
-   streamlit run dashboard.py
+   python -m streamlit run dashboard.py
